@@ -3,7 +3,7 @@ service: ci-cd
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: dev
+  stage: local
   region: us-west-2
   memorySize: 128
   timeout: 3
